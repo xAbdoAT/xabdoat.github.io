@@ -3,6 +3,6 @@ Label: xAbdoAT
 Suite: stable
 Version: 1.0
 Codename: xDarkDreamx
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64
 Components: main
 Description: Hello, This Repo Still in Beta Stats
