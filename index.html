@@ -1,6 +1,15 @@
 <html>
   <head>
     <title>xAbdoAT - Repo</title>
+    <script>
+  setInterval(function() {
+    var title = document.getElementsByTagName('title')[0];
+    var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+    var randomIndex = Math.floor(Math.random() * colors.length);
+    var randomColor = colors[randomIndex];
+    title.style.color = randomColor;
+  }, 2000);
+</script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,300);
