@@ -4,7 +4,7 @@ Architecture: iphones-arm64
 Maintainer: xAbdoAT
 Depends: mobilesubstrate
 Conflicts: 
-Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm64.deb
+Filename: .debs/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm64.deb
 Size: 5380
 MD5sum: f6017808eadd0e3ffa04d5318f537e22
 SHA1: 7dcae22a3f073c66f10323a4854bb17a95c51614
