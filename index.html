@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>xAbdoAT - Repo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,300);
+
       html, body {
         height: 100%;
         margin: 0;
@@ -15,6 +17,7 @@
         background-size: cover;
         font-family: 'Josefin Sans', sans-serif;
       }
+
       .container {
         display: flex;
         flex-direction: column;
@@ -22,33 +25,45 @@
         align-items: center;
         height: 100%;
       }
+
       .title {
         font-size: 60px;
         font-weight: 100;
-        margin: 40px 0;
+        margin-bottom: 50px;
         text-align: center;
         animation: colorChange 10s infinite;
       }
+
+      .title .classAT {
+        font-size: 30px;
+        text-align: center;
+        animation: colorChange 10s infinite;
+        display: inline;
+      }
+
       .subtitle {
         font-size: 24px;
         font-weight: 300;
         color: #fff;
-        margin: 0;
-        margin-bottom: 70px;
+        margin: 0 0 15px;
         text-align: center;
       }
+
       .icon {
         width: 100px;
-        border-radius: 180px;
+        border-radius: 50%;
         border: 3px solid #fff;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         box-sizing: border-box;
       }
+
       .link {
+        margin-top: 30px;
         color: skyblue;
         text-decoration: none;
         font-weight: bold;
       }
+
       .footer {
         font-size: 16px;
         font-weight: 300;
@@ -56,6 +71,7 @@
         margin: 40px 0;
         text-align: center;
       }
+
       @keyframes colorChange {
         0% {
           color: #fff;
@@ -77,8 +93,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="title">xAbdo AT</div>
-      <img src="Icon.png" alt="" class="icon">
+      <div class="title">xAbdo<div class="classAT">AT</div></div>
+      <img src="Icon.png" alt="Icon" class="icon">
       <div class="subtitle">Add My Repo</div>
       <div class="links">
         <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://xabdoat.github.io/repo/" class="link">Cydia</a><br><br>
@@ -89,6 +105,7 @@
       <div class="links">
         <a href="https://twitter.com/xAbdoAT" class="link">Twitter</a>
       </div>
-      <div class="footer">Copyright © 2023 xAbdoAT
-      </div>
+      <div class="footer">&copy; 2023 xAbdoAT</div>
     </div>
+  </body>
+</html>
