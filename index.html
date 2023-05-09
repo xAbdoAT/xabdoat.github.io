@@ -12,7 +12,7 @@
         padding: 0;
       }
       body {
-        background: #131313;
+        background: url('https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
         background-position: center center;
         background-size: cover;
         font-family: 'Josefin Sans', sans-serif;
@@ -32,6 +32,8 @@
         margin-bottom: 50px;
         text-align: center;
         animation: colorChange 10s infinite;
+        color: white;
+        text-shadow: 0 0 10px #000000;
       }
 
       .title .classAT {
@@ -47,6 +49,7 @@
         color: #fff;
         margin: 0 0 15px;
         text-align: center;
+        text-shadow: 0 0 10px #000000;
       }
 
       .icon {
@@ -55,6 +58,7 @@
         border: 3px solid #fff;
         margin-bottom: 80px;
         box-sizing: border-box;
+        filter: blur(5px);
       }
 
       .link {
@@ -62,6 +66,18 @@
         color: skyblue;
         text-decoration: none;
         font-weight: bold;
+        text-shadow: 0 0 10px #000000;
+      }
+
+      .glass {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(20px);
+        z-index: -1;
       }
 
       .footer {
@@ -70,6 +86,7 @@
         color: #fff;
         margin: 40px 0;
         text-align: center;
+        text-shadow: 0 0 10px #000000;
       }
 
       @keyframes colorChange {
@@ -92,6 +109,7 @@
     </style>
   </head>
   <body>
+    <div class="glass"></div>
     <div class="container">
       <div class="title">xAbdo<div class="classAT">AT</div></div>
       <img src="Icon.png" alt="Icon" class="icon">
