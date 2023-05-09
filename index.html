@@ -28,14 +28,14 @@
       }
 
       .title {
-        font-size: 60px;
-        font-weight: 200;
-        margin-bottom: 55px;
-        text-align: center;
-        animation: colorChange 10s infinite;
-        color: white;
-        text-shadow: 0 0 10px #000000;
-      }
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px #000000;
+  animation: glitch 15s linear infinite;
+}
 
       .title .classAT {
         font-size: 30px;
@@ -48,7 +48,16 @@
         font-size: 24px;
         font-weight: 300;
         color: #fff;
-        margin: 0 0 10px;
+        margin: 0 0 100px;
+        text-align: center;
+        text-shadow: 0 0 10px #000000;
+      }
+
+      .subtitle .classFollowMe {
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+        margin: 0 0 100px;
         text-align: center;
         text-shadow: 0 0 10px #000000;
       }
@@ -57,7 +66,7 @@
         width: 100px;
         border-radius: 50%;
         border: 3px solid #fff;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         box-sizing: border-box;
         position: relative; /* add this */
         z-index: 1; /* add this */
@@ -108,6 +117,52 @@
           color: #fff;
         }
       }
+      @keyframes glitch {
+  0% {
+    color: white;
+    text-shadow: 0 0 10px #000000;
+  }
+  10% {
+    color: blue;
+    text-shadow: 0 0 10px blue;
+  }
+  20% {
+    color: green;
+    text-shadow: 0 0 10px green;
+  }
+  30% {
+    color: red;
+    text-shadow: 0 0 10px red;
+  }
+  40% {
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+  }
+  50% {
+    color: white;
+    text-shadow: 0 0 10px #000000;
+  }
+  60% {
+    color: blue;
+    text-shadow: 0 0 10px blue;
+  }
+  70% {
+    color: green;
+    text-shadow: 0 0 10px green;
+  }
+  80% {
+    color: red;
+    text-shadow: 0 0 10px red;
+  }
+  90% {
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+  }
+  100% {
+    color: white;
+    text-shadow: 0 0 10px #000000;
+  }
+}
     </style>
   </head>
   <body>
