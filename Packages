@@ -1,6 +1,6 @@
 Package: com.brend0n.nopassafterrespringsafe
 Version: 0.0.2
-Architecture: iphones-arm64
+Architecture: iphoneos-arm64
 Maintainer: xAbdoAT
 Depends: mobilesubstrate
 Conflicts: 
@@ -10,14 +10,15 @@ MD5sum: f6017808eadd0e3ffa04d5318f537e22
 SHA1: 7dcae22a3f073c66f10323a4854bb17a95c51614
 SHA256: 38865ebb66a28061b6a7d520805aeb55efca546705a13102a86633c3067b741d
 Section: Tweaks
-Depiction: Disables passcode after a respring.
+Description: Disables passcode after a respring.
+Depiction: https://xabdoat.github.io/repo/
 Name: NoPassAfterRespring (Safe)
 
 Package: com.fouadraheb.watusi3
 Version: 1.2~b10
 Architecture: iphoneos-arm64
 Maintainer: Fouad Raheb
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.4.7), com.muirey03.libmryipc
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.4.7)
 Conflicts: com.fouadraheb.watusi, org.mr.watusitools, com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
 Filename: ./deds/Watusi3forWhatsApp.com.fouadraheb.watusi3.deb
 Size: 1943332 
@@ -25,5 +26,6 @@ MD5sum: a73a235524ba4b4ce56760855c3ea87b
 SHA1: 53230028334f785b92dc6c6039b7800135a34978
 SHA256: 2f151d4b18e75de3851070cfead8c047961d18928ea78d5401b61096f822bdca
 Section: Tweaks
+Description: The all-in-one tweak for WhatsApp Messenger
 Depiction: https://xabdoat.github.io/repo/
 Name: Watusi 3 for WhatsApp
