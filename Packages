@@ -29,3 +29,20 @@ Section: Tweaks
 Description: The all-in-one tweak for WhatsApp Messenger
 Depiction: https://xabdoat.github.io/repo/
 Name: Watusi 3 for WhatsApp
+
+
+Package: com.xabdoat.storeswitcher2_1.0.2_iphoneos-arm64
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: xAbdoAT
+Depends: firmware (>= 15), mobilesubstrate
+Conflicts: com.lenglengyu.storeswitcher2-rootless
+Filename: ./debs/com.xabdoat.storeswitcher2_1.0.2_iphoneos-arm64.deb
+Size: 73176
+MD5sum: 93d73e18a5e2545cb927fe04338d165c
+SHA1: 90e23ea9447269727add8448302a99a3ad8ae466
+SHA256: 8f24b75b6bcd22e8e2bf6068b7af4e5a2de44417908f5270c7abbc7eac130058
+Section: Tools
+Description: Enabling quick switching of accounts in the AppStore account page.
+Depiction: https://xabdoat.github.io/repo/
+Name: Store Switcher 2
