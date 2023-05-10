@@ -19,7 +19,7 @@ Architecture: iphoneos-arm64
 Maintainer: Fouad Raheb
 Depends: (>= 11.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.4.7)
 Conflicts: com.fouadraheb.watusi, org.mr.watusitools, com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools, com.pulandres.noadswatusi, com.pulandres.noadswatusi1, com.hackyouriphone.whatshack, com.pulandres.whatshack
-Filename: ,/deds/Watusi3forWhatsApp.com.fouadraheb.watusi3.deb
+Filename: ./deds/Watusi3forWhatsApp.com.fouadraheb.watusi3.deb
 Size: 1943332 
 MD5sum: a73a235524ba4b4ce56760855c3ea87b
 SHA1: 53230028334f785b92dc6c6039b7800135a34978
