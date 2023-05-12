@@ -111,7 +111,7 @@ body {
   height: 100%;
   z-index: -1;
   background: inherit;
-  filter: blur(8px);
+  filter: blur(1px);
 }
 
 .footer {
