@@ -110,7 +110,7 @@ animation: glitch 22s linear infinite;
   height: 100%;
   z-index: -1;
   background: inherit;
-  filter: blur(20px);
+  filter: blur(8px);
 }
 
 .footer {
