@@ -28,7 +28,7 @@ margin-bottom: 55px;
 text-align: center;
 color: white;
 text-shadow: 0 0 10px #000000;
-animation: glitch 22s linear infinite;
+animation: glitch 10s linear infinite;
 }
 
 .title .classAT {
@@ -124,5 +124,4 @@ animation: glitch 22s linear infinite;
   color: white;
   text-shadow: 0 0 10px #000000;
   padding: 20px;
-  animation: colorChange 10s infinite;
 }
