@@ -44,5 +44,5 @@ SHA1: 90e23ea9447269727add8448302a99a3ad8ae466
 SHA256: 8f24b75b6bcd22e8e2bf6068b7af4e5a2de44417908f5270c7abbc7eac130058
 Section: Tools
 Description: Enabling quick switching of accounts in the AppStore account page.
-Depiction: https://xabdoat.github.io/
+Depiction: https://xabdoat.github.io
 Name: Store Switcher 2
