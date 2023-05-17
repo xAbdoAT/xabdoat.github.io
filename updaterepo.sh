@@ -4,7 +4,7 @@ if [[ "$OSTYPE" == "linux"* ]]; then # Linux usage of repo.me
     
     rm Packages Packages.xz Packages.gz Packages.bz2 Packages.zst Release 2> /dev/null
     
-    apt-ftparchive packages ./debians > Packages
+    apt-ftparchive packages ./debs > Packages
     gzip -c9 Packages > Packages.gz
     xz -c9 Packages > Packages.xz
     zstd -c19 Packages > Packages.zst
