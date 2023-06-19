@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle" width="100" height="100">
+    <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle" width="150" height="150">
     <br />
     xAbdo AT
 </h2>
