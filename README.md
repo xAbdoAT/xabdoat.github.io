@@ -10,7 +10,7 @@
     <strong>Devices tested: iPhone Xs (iOS15), iPhone6s (iOS15),</strong>
 </p>
 <h2 align="center">
-     <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle" width="150" height="150">
+<a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
     Other
 </h2>
 <p align="center">
