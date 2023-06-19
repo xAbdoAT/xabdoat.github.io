@@ -2,6 +2,7 @@
     <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle" width="150" height="150">
     <br />
     xAbdo AT
+    <a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
 </h2>
 <p align="center">
     All the tweak I have released are compatible<br>
