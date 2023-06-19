@@ -1,8 +1,8 @@
-<h3 align="center">
-    <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle">
-<br />
+<h2 align="center">
+    <img src="https://xAbdoAT.github.io/CydiaIcon.png" id="myIcon" align="middle" width="50" height="50">
+    <br />
     xAbdo AT
-</h3>
+</h2>
 <p align="center">
     All the tweak I have released are compatible<br>
     with the devices (iOS15, iOS16) and also A12+<br>
@@ -14,6 +14,5 @@
 </h2>
 <p align="center">
     <a href="https://twitter.com/xAbdoAT">Twitter</a><br>
-     <a href="https://xAbdoAT.github.io/">Add Repo</a>
+    <a href="https://xAbdoAT.github.io/">Add Repo</a>
 </p>
-
