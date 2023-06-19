@@ -11,7 +11,7 @@
 </p>
 <a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
     Other
-</h2>
+<a href="#"><img src="https://i.imgur.com/y4oV9VV.png" alt="colored line"></a>
 <p align="center">
     <a href="https://twitter.com/xAbdoAT">Twitter</a><br>
     <a href="https://xAbdoAT.github.io/">Add Repo</a>
