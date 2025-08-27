@@ -1,0 +1,526 @@
+/* =================================================================
+   UNIFIED STYLES - Abdo AT BioLink Portfolio
+   Combines all CSS for centralized, minimalist asset management
+   ================================================================= */
+
+/* FONTS */
+@font-face {
+    font-family: custom-font;
+    src: url(/assets/fonts/FiraCode.ttf);
+}
+
+* {
+    font-family: custom-font, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* BASE LAYOUT & BODY STYLES */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* Handle iPhone safe areas */
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+body {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    color: #fff;
+    background-color: #1F2128;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* WELCOME SCREEN STYLES */
+#enter {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    color: #333;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    position: absolute;
+    transition: .3s ease-in;
+}
+
+#enter .section {
+    color: #ffffffbf;
+    flex-flow: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+}
+
+#enter .content {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+
+#enter h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff;
+}
+
+#enter .button {
+    color: #000;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 12px;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    border: 0;
+}
+
+/* MAIN LANDING AREA */
+.landing {
+    text-align: center;
+}
+
+/* Remove underlines from all links */
+.landing a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.landing a:hover {
+    text-decoration: none;
+}
+
+.landing a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.landing a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* USERNAME & AVATAR STYLES */
+.customglow-username {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 2rem;
+    text-align: center;
+    filter: drop-shadow(0 0 0.2rem #ffffff);
+}
+
+.username-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* BORDER & CONTAINER STYLES */
+.border {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 39px 27px;
+    width: 100%;
+    max-width: 35.9rem;
+    border-radius: 35px;
+    backdrop-filter: transparent;
+    background-color: transparent;
+    box-shadow: transparent;
+}
+
+@media (max-width: 480px) {
+    .border {
+        left: 50%;
+        padding: 0px, 0px;
+        width: 80%;
+        max-width: 100%;
+        border-radius: 21px;
+    }
+}
+
+/* ICON STYLES */
+.icon {
+    margin: 3px;
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon:active {
+    transform: scale(1.2);
+}
+
+/* SOCIAL MEDIA SECTION */
+.social-media {
+    text-align: center;
+    position: relative;
+}
+
+.description {
+    font-size: 17px;
+    margin: 14px 0;
+    color: #fff;
+}
+
+/* VIDEO BACKGROUND */
+.videobg {
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+#vidx {
+    width: 100vw;
+    height: 100vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+/* ANIMATIONS */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+    }
+    50% {
+        box-shadow: 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+    }
+    100% {
+        box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+    }
+}
+
+@keyframes username {
+    0% {
+        text-shadow: 0px 0px 9px #5539cc;
+        opacity: 1;
+    }
+    14% {
+        text-shadow: 0px 0px 9px #5539cc;
+        opacity: 0.50;
+    }
+    20% {
+        text-shadow: 0px 0px 5px #feda75, 0px 0px 5px #fa7e1e, 0px 0px 5px #d62976, 0px 0px 5px #962fbf, 0px 0px 5px #4f5bd5;
+        opacity: 1;
+    }
+    30% {
+        text-shadow: 0px 0px 5px #229ED9;
+        opacity: 0.25;
+    }
+    40% {
+        text-shadow: 0px 0px 10px #A00003;
+        opacity: 1;
+    }
+    50% {
+        text-shadow: 0px 0px 10px #FFFC00;
+        opacity: 0.25;
+    }
+    60% {
+        text-shadow: 0px 0px 5px #0079C1;
+        opacity: 1;
+    }
+    70% {
+        text-shadow: 0px 0px 5px gray;
+        opacity: 0.25;
+    }
+    80% {
+        text-shadow: 0px 0px 5px blue;
+        opacity: 1;
+    }
+    90% {
+        text-shadow: 0px 0px 5px #E60023;
+        opacity: 0.25;
+    }
+}
+
+@keyframes fadeinout {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+/* DISCORD STATUS STYLES */
+.status {
+    color: #f23f43;
+    position: absolute;
+    font-size: 19.5px;
+    bottom: 3.5px;
+    left: 55.5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.statuscontainer_dnd {
+    color: #f23f43;
+    position: absolute;
+    font-size: 19.5px;
+    bottom: 3.5px;
+    left: 55.5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.statuscontainer_idle {
+    color: #eff23f;
+    position: absolute;
+    font-size: 19.5px;
+    bottom: 3.5px;
+    left: 55.5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.statuscontainer_online {
+    color: #08d334;
+    position: absolute;
+    font-size: 19.5px;
+    bottom: 3.5px;
+    left: 55.5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.statuscontainer_offline {
+    color: #858585;
+    position: absolute;
+    font-size: 19.5px;
+    bottom: 3.5px;
+    left: 55.5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+/* DISCORD CONTAINER STYLES */
+.container,
+.discordcontainer {
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-flex;
+    place-items: center;
+}
+
+.profile-pic,
+.avatarcontainer {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.info h1,
+.infocontainer h1 {
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0 11px;
+    font-size: 19.7px;
+    max-width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 630;
+}
+
+.infocontainer h3 {
+    text-align: left;
+    padding: 0;
+    font-size: 13.2px;
+    font-weight: 520;
+    max-width: 270px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 3.5px 6px 0 11px;
+}
+
+/* EMOJI STYLES */
+.emojicss {
+    margin-top: -1px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 19px;
+    width: auto;
+}
+
+/* DISCORD SERVER CARD STYLES */
+.layout_2_4510bb0b2f33c8542865ef1267675955_double_wrapper__E_qyW {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.layout_2_4510bb0b2f33c8542865ef1267675955_other__JPn53 {
+    margin-left: 4px;
+    border-radius: 12px;
+}
+
+.layout_2_4510bb0b2f33c8542865ef1267675955_guild_info__rVXiI {
+    margin-left: 10px;
+    text-align: left;
+    display: block;
+    max-width: 180px;
+    min-width: 160px;
+}
+
+.layout_2_4510bb0b2f33c8542865ef1267675955_discord_invite__gJmuE {
+    display: flex;
+    height: 100%;
+    padding: 5px 10px;
+    place-items: center;
+    margin-top: -5px;
+}
+
+.layout_2_4510bb0b2f33c8542865ef1267675955_discord_invite__gJmuE img {
+    min-height: 60px;
+    max-height: 61px;
+    border-radius: 28%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.layout_2_4510bb0b2f33c8542865ef1267675955_guild_info__rVXiI a {
+    text-decoration: none;
+    background-color: #1a6334;
+    color: #fff;
+    font-size: 12.5px !important;
+    padding: 1px 7.5px !important;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+#myLink {
+    cursor: pointer;
+}
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width: 767px) {
+    .info h1,
+    .infocontainer h1 {
+        max-width: 115px;
+    }
+    .infocontainer h3 {
+        max-width: 115px;
+    }
+}
+
+@media (min-width: 768px) {
+    .info h1,
+    .infocontainer h1 {
+        max-width: 170px;
+    }
+    .infocontainer h3 {
+        max-width: 170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .info h1,
+    .infocontainer h1 {
+        max-width: 210px;
+    }
+    .infocontainer h3 {
+        max-width: 210px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .info h1,
+    .infocontainer h1 {
+        max-width: 240px;
+    }
+    .infocontainer h3 {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 359px) {
+    .info h1,
+    .infocontainer h1 {
+        max-width: 100px;
+    }
+    .infocontainer h3 {
+        max-width: 100px;
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Abdo AT - Developer Portfolio",
+  "short_name": "Abdo AT",
+  "description": "Abdo AT Main Bio Page - Developer Portfolio and Links",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1F2128",
+  "theme_color": "#1F2128",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/images/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/AbdoAT.gif",
+      "sizes": "120x120",
+      "type": "image/gif",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["developer", "portfolio", "social"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
