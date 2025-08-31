@@ -100,7 +100,7 @@ class DiscordLoader {
 
         const discordContainer = document.createElement('div');
         discordContainer.className = 'discordcontainer';
-        discordContainer.style = 'margin-bottom: 10px;background-color: rgb(255, 255, 255, 0.09);border: 1px solid rgb(255, 255, 255, 0.02);border-radius: 15px';
+        discordContainer.style = 'margin-bottom: 10px;background-color: rgba(13, 17, 23, 0.85);border: 1px solid rgba(88, 166, 255, 0.2);border-radius: 15px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);backdrop-filter: blur(4px);';
 
         const avatar = document.createElement('img');
         const avatarUrl = `https://cdn.discordapp.com/avatars/${data.data.discord_user.id}/${data.data.discord_user.avatar}`;
@@ -110,7 +110,7 @@ class DiscordLoader {
         avatar.draggable = 'true';
         avatar.width = '65';
         avatar.className = 'avatarcontainer imgundragable';
-        avatar.style = 'border: 2px solid rgb(255, 255, 255, 0.2)!important';
+        avatar.style = 'border: 2px solid rgba(88, 166, 255, 0.3)!important';
         discordContainer.appendChild(avatar);
 
         const infoDiv = document.createElement('div');
@@ -316,7 +316,7 @@ class DiscordLoader {
 
         const other = document.createElement('div');
         other.className = 'layout_2_4510bb0b2f33c8542865ef1267675955_other__JPn53';
-        other.style = 'background-color: rgba(255, 255, 255, 0.09);border: 1px solid rgba(255, 255, 255, 0.106);';
+        other.style = 'background-color: rgba(13, 17, 23, 0.85); border: 1px solid rgba(88, 166, 255, 0.2);';
 
         const discordInvite = document.createElement('div');
         discordInvite.className = 'layout_2_4510bb0b2f33c8542865ef1267675955_discord_invite__gJmuE';
@@ -361,13 +361,13 @@ class DiscordLoader {
         if (!discordrpc) return;
 
         discordrpc.innerHTML = `
-        <div style="width:auto;background-color:rgb(255, 255, 255, 0.09);border:1px solid rgb(255, 255, 255, 0.2);margin-top:8px;margin-bottom:5px;padding: 10px;border-radius: 15px;position: relative;display: inline-flex;place-items: center">
+        <div style="width:auto;background-color:rgba(13, 17, 23, 0.85);border:1px solid rgba(88, 166, 255, 0.2);margin-top:8px;margin-bottom:5px;padding: 10px;border-radius: 15px;position: relative;display: inline-flex;place-items: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
             <div>
                 <h1 style="color:#ffffff;margin-right:3px;text-align: left;padding: 0;margin: 0 0 0 5px;font-size: 19.7px;max-width: 240px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis">
-                    <svg style="vertical-align:-3px;font-size:22px;color:#ff3333" width="1em" height="1em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" fill-rule="evenodd" d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm8.423-3a.923.923 0 00-.923.923v.385a1 1 0 11-2 0v-.385A2.923 2.923 0 019.423 5H10c1.941 0 3.5 1.591 3.5 3.516 0 .927-.48 1.8-1.276 2.29l-1.7 1.046a1 1 0 01-1.048-1.704l1.7-1.046a.691.691 0 00.324-.586C11.5 7.679 10.82 7 10 7h-.577zm.587 8a1 1 0 100-2H10a1 1 0 100 2h.01z"></path> </g></svg>
+                    <svg style="vertical-align:-3px;font-size:22px;color:#ff3333" width="1em" height="1em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#ff3333" fill-rule="evenodd" d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm8.423-3a.923.923 0 00-.923.923v.385a1 1 0 11-2 0v-.385A2.923 2.923 0 019.423 5H10c1.941 0 3.5 1.591 3.5 3.516 0 .927-.48 1.8-1.276 2.29l-1.7 1.046a1 1 0 01-1.048-1.704l1.7-1.046a.691.691 0 00.324-.586C11.5 7.679 10.82 7 10 7h-.577zm.587 8a1 1 0 100-2H10a1 1 0 100 2h.01z"></path> </g></svg>
                      User not found
                 </h1>
-                <h3 style="color:#ffffff;text-align: left;margin: 3.5px 0 0 5px;padding: 0;font-size: 14.6px;font-weight: 520">Join <a target="_blank" style="color:#bbbbbb;text-decoration:none" href="https://Abdo.is-a.dev">Code & Play</a> to display your status.</h3>
+                <h3 style="color:#ffffff;text-align: left;margin: 3.5px 0 0 5px;padding: 0;font-size: 14.6px;font-weight: 520">Join <a target="_blank" style="color:#58A6FF;text-decoration:none" href="https://discord.gg/${this.serverId}">Code & Play</a> to display your status.</h3>
             </div>
         </div>`;
     }
@@ -378,13 +378,13 @@ class DiscordLoader {
         if (!discordServer) return;
 
         discordServer.innerHTML = `
-        <div style="width:auto;background-color:rgb(255, 255, 255, 0.09);border:1px solid rgb(255, 255, 255, 0.2);margin-top:8px;margin-bottom:5px;padding: 10px;border-radius: 15px;position: relative;display: inline-flex;place-items: center">
+        <div style="width:auto;background-color:rgba(13, 17, 23, 0.85);border:1px solid rgba(88, 166, 255, 0.2);margin-top:8px;margin-bottom:5px;padding: 10px;border-radius: 15px;position: relative;display: inline-flex;place-items: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
             <div>
                 <h1 style="color:#ffffff;margin-right:3px;text-align: left;padding: 0;margin: 0 0 0 5px;font-size: 19.7px;max-width: 240px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis">
-                    <svg style="vertical-align:-3px;font-size:22px;color:#ff3333" width="1em" height="1em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" fill-rule="evenodd" d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm8.423-3a.923.923 0 00-.923.923v.385a1 1 0 11-2 0v-.385A2.923 2.923 0 019.423 5H10c1.941 0 3.5 1.591 3.5 3.516 0 .927-.48 1.8-1.276 2.29l-1.7 1.046a1 1 0 01-1.048-1.704l1.7-1.046a.691.691 0 00.324-.586C11.5 7.679 10.82 7 10 7h-.577zm.587 8a1 1 0 100-2H10a1 1 0 100 2h.01z"></path> </g></svg>
+                    <svg style="vertical-align:-3px;font-size:22px;color:#ff3333" width="1em" height="1em" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#ff3333" fill-rule="evenodd" d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm8.423-3a.923.923 0 00-.923.923v .385a1 1 0 11-2 0v-.385A2.923 2.923 0 019.423 5H10c1.941 0 3.5 1.591 3.5 3.516 0 .927-.48 1.8-1.276 2.29l-1.7 1.046a1 1 0 01-1.048-1.704l1.7-1.046a.691.691 0 00.324-.586C11.5 7.679 10.82 7 10 7h-.577zm.587 8a1 1 0 100-2H10a1 1 0 100 2h.01z"></path> </g></svg>
                      Server not found
                 </h1>
-                <h3 style="color:#ffffff;text-align: left;margin: 3.5px 0 0 5px;padding: 0;font-size: 14.6px;font-weight: 520">Join <a target="_blank" style="color:#bbbbbb;text-decoration:none" href="https://Abdo.is-a.dev">Code & Play</a> to display server info.</h3>
+                <h3 style="color:#ffffff;text-align: left;margin: 3.5px 0 0 5px;padding: 0;font-size: 14.6px;font-weight: 520">Join <a target="_blank" style="color:#58A6FF;text-decoration:none" href="https://discord.gg/${this.serverId}">Code & Play</a> to display server info.</h3>
             </div>
         </div>`;
     }

@@ -1,26 +1,25 @@
 {
-  "name": "Abdo AT - Developer Portfolio",
+  "name": "Abdo AT - Coder BioLink",
   "short_name": "Abdo AT",
-  "description": "Abdo AT Main Bio Page - Developer Portfolio and Links",
+  "description": "Abdo AT Personal BioLink Page - Social Media Links and Discord Status",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0D1117",
-  "theme_color": "#0D1117",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "orientation": "portrait-primary",
   "icons": [
     {
       "src": "https://abdo.is-a.dev/assets/images/favicon.png",
-      "sizes": "192x192",
+      "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "https://abdo.is-a.dev/assets/images/favicon.png",
+      "src": "https://abdo.is-a.dev/assets/images/AbdoAT.gif",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/gif"
     }
   ],
-  "categories": ["developer", "portfolio", "social"],
+  "categories": ["coder", "social", "links"],
   "lang": "en",
   "dir": "ltr",
   "scope": "/",

@@ -1,6 +1,6 @@
-# 🔗 Personal BioLink Portfolio
+# 🔗 Personal BioLink Page
 
-> Modern, responsive biolink page with real-time Discord integration
+> Modern, responsive biolink page with real-time Discord integration for coders
 
 [![Live Site](https://img.shields.io/badge/Live-Site-brightgreen)](https://xabdoat.github.io)
 [![PWA Ready](https://img.shields.io/badge/PWA-Ready-blue)](#)
@@ -56,9 +56,9 @@
 ## ⚙️ Customization
 
 ### Discord Integration
-Update your Discord user ID in `/assets/js/discord-rpc.js`:
+Update your Discord user ID in `/assets/js/discord-loader.js`:
 ```javascript
-const discordApi = 'https://api.lanyard.rest/v1/users/YOUR_DISCORD_ID';
+this.userId = 'YOUR_DISCORD_ID';
 ```
 
 ### Social Links

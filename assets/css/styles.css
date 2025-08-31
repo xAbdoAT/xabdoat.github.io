@@ -1,5 +1,5 @@
 /* =================================================================
-   UNIFIED STYLES - Abdo AT BioLink Portfolio
+   UNIFIED STYLES - Abdo AT BioLink Page
    Combines all CSS for centralized, minimalist asset management
    ================================================================= */
 
@@ -369,9 +369,10 @@ body {
     text-align: center;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.09);
-    border: 1px solid rgba(255, 255, 255, 0.106);
+    background-color: rgba(13, 17, 23, 0.85);
+    border: 1px solid rgba(88, 166, 255, 0.2);
     margin: 10px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 #discord-error {
@@ -390,6 +391,10 @@ body {
     position: relative;
     display: inline-flex;
     place-items: center;
+    background-color: rgba(13, 17, 23, 0.85);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
 }
 
 .profile-pic,
@@ -400,6 +405,9 @@ body {
     border-radius: 50%;
     -o-object-fit: cover;
     object-fit: cover;
+    border: 2px solid rgba(88, 166, 255, 0.3);
+    height: 65px;
+    width: 65px;
 }
 
 .info h1,
@@ -452,6 +460,10 @@ body {
 .layout_2_4510bb0b2f33c8542865ef1267675955_other__JPn53 {
     margin-left: 4px;
     border-radius: 12px;
+    background-color: rgba(13, 17, 23, 0.85);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
 }
 
 .layout_2_4510bb0b2f33c8542865ef1267675955_guild_info__rVXiI {
@@ -476,6 +488,7 @@ body {
     border-radius: 28%;
     -o-object-fit: cover;
     object-fit: cover;
+    border: 2px solid rgba(88, 166, 255, 0.2);
 }
 
 .layout_2_4510bb0b2f33c8542865ef1267675955_guild_info__rVXiI a {
