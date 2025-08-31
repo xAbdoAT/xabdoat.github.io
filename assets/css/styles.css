@@ -364,6 +364,24 @@ body {
     -webkit-user-select: none;
 }
 
+/* DISCORD LOADING AND ERROR STATES */
+#discord-loading, #discord-error {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.106);
+    margin: 10px 0;
+}
+
+#discord-error {
+    color: #ff6b6b;
+}
+
+#discord-content {
+    transition: opacity 0.3s ease;
+}
+
 /* DISCORD CONTAINER STYLES */
 .container,
 .discordcontainer {
